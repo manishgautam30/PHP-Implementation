@@ -29,8 +29,10 @@ padding: 5px
 </head>
 <body>
 
-<form action="welcome.php" method="post">
-	
+<form action="welcome.php" method="post">  
+	<!-- if we want to stay on same page there is aglobal variable for that is written in action and is a php content hence written php quotes -->
+
+	<!--                  <?php $_SERVER["PHP_SELF"] ?>              -->
 
 <table align="center">
 	<tr>
